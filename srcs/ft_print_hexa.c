@@ -15,10 +15,8 @@
 // x - Hexadecimal arithmetics.
 void	hex_arithm(unsigned int num, char *base)
 {
-	unsigned int	num_conv;
 	unsigned int	i;
 
-	num_conv = num;
 	i = 0;
 	while (base[i])
 		i++;
